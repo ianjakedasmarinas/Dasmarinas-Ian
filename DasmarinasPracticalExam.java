@@ -100,7 +100,7 @@ public class DasmarinasPracticalExam {
     public static void main(String[] args) {
         DasmarinasPracticalExam list = new  DasmarinasPracticalExam();
 
-        // Adding elements
+       
         list.add(10);
         list.add(20);
         list.add(30);
@@ -108,25 +108,26 @@ public class DasmarinasPracticalExam {
         list.add(50);
         list.display();
 
-        // Test resizing
+        
         list.add(60);
         list.display();
 
-        // Peek at first element
+        
         list.peek();
 
-        // Poll (remove from head)
+       
         list.poll();
         list.display();
 
-        // Pop (remove from tail)
+       
         list.pop();
         list.display();
 
-        // More operations
+        
         list.poll();
         list.pop();
         list.peek();
         list.display();
     }
+
 }
